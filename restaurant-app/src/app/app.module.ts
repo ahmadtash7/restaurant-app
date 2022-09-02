@@ -1,14 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
+import { FirstPageComponent } from './first-page/first-page.component';
+import { ChickenComponent } from './chicken/chicken.component';
+import { BeefComponent } from './beef/beef.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
+    FirstPageComponent,
+    ChickenComponent,
+    BeefComponent,
   ],
   imports: [
     BrowserModule,
