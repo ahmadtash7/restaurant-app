@@ -19,6 +19,11 @@
                 <div class="burger-info">
                     {{burger.desc}}
                 </div>
+                <div class="add-burger">
+                    <a routerLink="meal">
+                        <button (click)="order()">Get {{burger.name}}</button>
+                    </a>
+                </div>
             </div>
         </div>
     </div>

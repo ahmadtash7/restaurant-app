@@ -24,4 +24,8 @@ export class ChickenComponent {
       'desc': 'description description description description description description description description description description description description description description ',
     },
   ]
+
+  order() {
+    alert('Order is placed');
+  }
 }

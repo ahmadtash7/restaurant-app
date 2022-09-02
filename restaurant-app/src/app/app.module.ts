@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { ChickenComponent } from './chicken/chicken.component';
 import { BeefComponent } from './beef/beef.component';
+import { MakeItAMealComponent } from './make-it-a-meal/make-it-a-meal.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { BeefComponent } from './beef/beef.component';
     FirstPageComponent,
     ChickenComponent,
     BeefComponent,
+    MakeItAMealComponent,
   ],
   imports: [
     BrowserModule,

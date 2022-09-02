@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BeefComponent } from './beef/beef.component';
 import { ChickenComponent } from './chicken/chicken.component';
 import { FirstPageComponent } from './first-page/first-page.component';
+import { MakeItAMealComponent } from './make-it-a-meal/make-it-a-meal.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'beef',
     component: BeefComponent
+  },
+  {
+    path: 'meal',
+    component: MakeItAMealComponent
   }
 ];
 
