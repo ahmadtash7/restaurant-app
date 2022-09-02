@@ -9,7 +9,6 @@
 html {
     height: 100vh;
     width: 100vw;
-    background-color: aquamarine;
 }
 
 body {
@@ -22,14 +21,15 @@ body {
 
 a {
     text-decoration: none;
+    -webkit-text-stroke: 2px black;
 }
 
 a:link {
-    color: black;
+    color: #42855B;
 }
 
 a:visited {
-    color: black;
+    color: #42855B;
 }
 
 @media all and (max-width: 768px) {
