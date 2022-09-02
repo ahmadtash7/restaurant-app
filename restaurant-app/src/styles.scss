@@ -16,6 +16,20 @@ body {
     height: 100%;
     width: 100%;
     background-color: bisque;
+    font-family: 'Common Pixel', sans-serif;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 @media all and (max-width: 768px) {
