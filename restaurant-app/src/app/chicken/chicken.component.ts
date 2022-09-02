@@ -1,15 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-chicken',
   templateUrl: './chicken.component.html',
   styleUrls: ['../burgers.scss']
 })
-export class ChickenComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class ChickenComponent {
+  burgers: any[] = [
+    {
+      'name': 'Burger 1',
+      'desc': 'description description description description description description description description description description description description description description ',
+    },
+    {
+      'name': 'Burger 2',
+      'desc': 'description description description description description description description description description description description description description description ',
+    },
+    {
+      'name': 'Burger 3',
+      'desc': 'description description description description description description description description description description description description description description ',
+    },
+    {
+      'name': 'Burger 4',
+      'desc': 'description description description description description description description description description description description description description description ',
+    },
+  ]
 }
