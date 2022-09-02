@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-beef',
   templateUrl: './beef.component.html',
-  styleUrls: ['./beef.component.scss']
+  styleUrls: ['../burgers.scss']
 })
 export class BeefComponent implements OnInit {
 
