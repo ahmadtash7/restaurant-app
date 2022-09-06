@@ -30,7 +30,6 @@ export class ChickenComponent {
   ]
 
   addBurgerToCart() {
-    alert('burger added to cart');
     this.router.navigateByUrl('/meal');
   }
 }

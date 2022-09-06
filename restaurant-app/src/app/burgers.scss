@@ -115,4 +115,11 @@
     height: 90%;
     background-color: #42855B;
     color: #d8ae78;
+    button {
+        background-color: #d8ae78;
+    }
+    button:hover {
+        color: #42855B;
+        background-color: azure;
+    }
 }

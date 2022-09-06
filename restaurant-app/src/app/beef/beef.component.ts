@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-beef',
@@ -6,6 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['../burgers.scss']
 })
 export class BeefComponent {
+
+  constructor(private router: Router) { }
+
   burgers: any[] = [
     {
       'name': 'Burger 1',
@@ -24,4 +28,8 @@ export class BeefComponent {
       'desc': 'description description description description description description description description description description description description description description ',
     },
   ]
+
+  addBurgerToCart() {
+    this.router.navigateByUrl('/meal');
+  }
 }

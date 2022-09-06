@@ -1,0 +1,109 @@
+.meal-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.back-button-div {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back-button {
+    border: 1px solid green;
+    width: 100%;
+    height: 20%;
+}
+
+.fa-solid.fa-arrow-left {
+    color: #42855B;
+    transition: 0.3s;
+}
+
+.fa-solid.fa-arrow-left:hover {
+    font-size: 10em;
+}
+
+.meal-block-div {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.meal-block-card {
+    width: 50%;
+    height: 70%;
+    background-color: #483838;
+    display: flex;
+    flex-direction: row;
+    border: 5px solid #42855B;
+    border-radius: 20px;
+}
+
+.burger-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 3px solid #42855B;
+}
+
+.fa-solid.fa-burger {
+    color: #d8ae78
+}
+
+.add-ons-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.add-ons-option-div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    button {
+        border: none;
+        color: #42855B;
+        width: 60%;
+        padding: 3%;
+        background-color: #42855B;
+        color: azure;
+        border-radius: 20px;
+    }
+}
+
+.image-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-solid.fa-bottle-water {
+    color: rgb(70, 190, 184);
+}
+
+.button-div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
