@@ -42,7 +42,7 @@
     display: flex;
     flex-direction: row;
     border: 5px solid #42855B;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
 }
 
 .burger-div {
@@ -75,6 +75,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    transition: 0.25s linear;
     button {
         border: none;
         color: #42855B;
@@ -84,6 +85,18 @@
         color: azure;
         border-radius: 20px;
     }
+    button:hover {
+        background-color: azure;
+        color: #42855B;
+    }
+}
+
+.add-ons-option-div:hover {
+    background-color: #d8ae78;
+}
+
+#border-bottom {
+    border-bottom: 3px solid #42855B;
 }
 
 .image-div {
