@@ -20,9 +20,7 @@
                     {{burger.desc}}
                 </div>
                 <div class="add-burger">
-                    <a routerLink="meal">
-                        <button (click)="order()">Get {{burger.name}}</button>
-                    </a>
+                    <button (click)="addBurgerToCart()">Get {{burger.name}}</button>
                 </div>
             </div>
         </div>

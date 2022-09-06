@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-chicken',
@@ -6,6 +7,9 @@ import { Component } from '@angular/core';
   styleUrls: ['../burgers.scss']
 })
 export class ChickenComponent {
+
+  constructor(private router: Router) { }
+
   burgers: any[] = [
     {
       'name': 'Burger 1',
@@ -25,7 +29,8 @@ export class ChickenComponent {
     },
   ]
 
-  order() {
-    alert('Order is placed');
+  addBurgerToCart() {
+    alert('burger added to cart');
+    this.router.navigateByUrl('/meal');
   }
 }
